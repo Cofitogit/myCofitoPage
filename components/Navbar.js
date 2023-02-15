@@ -15,7 +15,7 @@ const Navbar = () => (
         aria-expanded='false'
         aria-label='Toggle navigation'
       >
-        <span classNameName='navbar-toggler-icon'></span>
+        <span className='navbar-toggler-icon'></span>
       </button>
       <div className='collapse navbar-collapse' id='navbarNav'>
         <ul className='navbar-nav ms-auto'>
@@ -25,8 +25,13 @@ const Navbar = () => (
             </Link>
           </li>
           <li className='nav-item'>
-            <Link className='nav-link text-light' href='/github'>
+            <Link className='nav-link text-light' href='https://github.com/Cofitogit'>
               Github
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link className='nav-link text-light' href='https://linkedin.com/in/aguero-ce-dev'>
+              LinkedIn
             </Link>
           </li>
         </ul>
