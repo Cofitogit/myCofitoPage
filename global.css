@@ -11,3 +11,15 @@
 .overflow .card-img-top:hover {
     transform: scale(1.8);
 }
+
+.nav-link {
+    color: grey;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.img-fluid {
+    border-radius: 10%;
+}

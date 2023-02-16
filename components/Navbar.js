@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Navbar = () => (
   <nav className='navbar navbar-expand-lg bg-dark'>
     <div className='container'>
-      <Link className='navbar-brand text-light' href='/'>
+      <Link className='navbar-brand text-white' href='/'>
         Portfolio
       </Link>
       <button
@@ -20,17 +20,17 @@ const Navbar = () => (
       <div className='collapse navbar-collapse' id='navbarNav'>
         <ul className='navbar-nav ms-auto'>
           <li className='nav-item'>
-            <Link className='nav-link text-light' href='/blog'>
+            <Link className='nav-link' href='/blog'>
               Blog
             </Link>
           </li>
           <li className='nav-item'>
-            <Link className='nav-link text-light' href='https://github.com/Cofitogit'>
+            <Link className='nav-link' href='https://github.com/Cofitogit'>
               Github
             </Link>
           </li>
           <li className='nav-item'>
-            <Link className='nav-link text-light' href='https://linkedin.com/in/aguero-ce-dev'>
+            <Link className='nav-link' href='https://linkedin.com/in/aguero-ce-dev'>
               LinkedIn
             </Link>
           </li>

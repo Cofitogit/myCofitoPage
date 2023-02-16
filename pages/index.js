@@ -1,7 +1,7 @@
 import { Experiences } from '../components/Experiences';
 import Layout from '../components/Layout';
 import { Skills } from '../components/Skills';
-import Link from 'next/link'
+import Link from 'next/link';
 import { Projects } from '../components/Projects';
 
 const Index = () => (
@@ -14,7 +14,7 @@ const Index = () => (
             <div className='col-md-4'>
               <img src='profile.jpg' alt='' className='img-fluid p-4' />
             </div>
-            <div className='col-md-8 p-4'>
+            <div className='col-md-8 p-4 justify-content- d-grid'>
               <h1 className='fw-light'>Carlos Enrique Agüero</h1>
               <h3 className='fw-lighter'>
                 Front-end Developer | Javascript | React
@@ -25,7 +25,11 @@ const Index = () => (
                 quis mollitia sunt, recusandae odit aspernatur vero error.
                 Facere perferendis ex nobis voluptatibus animi!
               </p>
-              <a href='/hireme'>Hire Me</a>
+              <div className='d-grid mx-auto col-md-4'>
+                <Link href='/hireme' className='btn btn-outline-info' style={{height: '40px'}}>
+                  HIRE ME
+                </Link>
+              </div>
             </div>
           </div>
         </div>
@@ -37,8 +41,10 @@ const Index = () => (
     <div className='row py-2'>
       <div className='col-md-4'>
         <div className='card bg-info h-100'>
-          <div className='card-body'>
-            <h1>Skills</h1>
+          <div className='card-body text-center'>
+            <h1 className='bg-dark rounded text-light fw-lighter py-2'>
+              Skills
+            </h1>
 
             <Skills />
           </div>
@@ -47,7 +53,9 @@ const Index = () => (
       <div className='col-md-8'>
         <div className='card bg-info h-100'>
           <div className='card-body'>
-            <h1>Experience</h1>
+            <h1 className='text-center bg-dark rounded text-light fw-lighter py-2'>
+              Experience
+            </h1>
 
             <Experiences />
           </div>
@@ -60,16 +68,19 @@ const Index = () => (
     <div className='row'>
       <div className='col-md-12'>
         <div className='card card-body bg-dark'>
-          <div className="row">
-            <div className="col-md-12">
-              <h2 className='text-center text-light fw-lighter py-1'>Portfolio</h2>
+          <div className='row'>
+            <div className='col-md-12'>
+              <h2 className='text-center text-light fw-lighter py-1'>
+                Portfolio
+              </h2>
             </div>
 
             <Projects />
-
           </div>
-          <div className="text-center mt-3">
-            <Link href="#!" className='btn btn-outline-light'>More projects</Link>
+          <div className='text-center mt-3'>
+            <Link href='#!' className='btn btn-outline-light'>
+              More projects
+            </Link>
           </div>
         </div>
       </div>
