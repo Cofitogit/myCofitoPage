@@ -21,9 +21,10 @@ const Layout = ({ children }) => {
 
       <footer className='bg-dark text-light text-center'>
         <div className='container py-2'>
-          <h3 className='fw-lighter'>&copy; Carlos Enrique Agüero Porfolio</h3>
-          <p>2022 - {new Date().getFullYear()}</p>
-          <p>All rights Reserved.</p>
+          <h3 className='fw-lighter'>Contacto</h3>
+          <p>lucas.aguero98@gmail.com</p>
+          <p>Tel.: 3541-646965</p>
+          <p>Córdoba capital</p>
         </div>
       </footer>
     </>

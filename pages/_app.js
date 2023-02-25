@@ -6,7 +6,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Cofito WEB</title>
+        <title>Lucas Porfolio</title>
       </Head>
 
       <Component {...pageProps} />

@@ -1,74 +1,88 @@
 export const skills = [
     {
-        skill: 'JavaScript',
+        skill: 'Fusion 360',
+        percentage: 80,
+    },
+    {
+        skill: 'Auto Cad',
         percentage: 90,
     },
     {
-        skill: 'React',
-        percentage: 70,
+        skill: '3DS Max',
+        percentage: 65,
     },
     {
-        skill: 'Django',
+        skill: 'Excel',
+        percentage: 80,
+    },
+    {
+        skill: 'Z Brush',
         percentage: 60,
-    },
-    {
-        skill: 'MSSQL',
-        percentage: 40,
-    },
-    {
-        skill: 'MongoDB',
-        percentage: 40,
-    },
-    {
-        skill: 'NodeJS',
-        percentage: 60,
-    },
+    }
 ]
 
 export const experiences = [
     {
-        title: 'Sofware developer at Google',
-        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam fuga harum accusamus eos repellendus rem earum voluptatem quaerat corrupti deserunt quos blanditiis unde, nisi quidem voluptate cupiditate natus! Fugiat, cum.',
-        from: 2013,
-        to: 2018
+        title: 'Educación primaria y secundaria',
+        description: 'Estudios primarios y secundarios en IESS | Instituto de Enseñanza Secundaria y Superior, Villa Carlos Paz. Orientación: Ciencias Naturales',
+        from: 2004,
+        to: 2016
     },
     {
-        title: 'Front-end developer at Applaudo Studio',
-        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam fuga harum accusamus eos repellendus rem earum voluptatem quaerat corrupti deserunt quos blanditiis unde. Besude as commo nisi quidem voluptate cupiditate.',
-        from: 2018
+        title: 'Educación universitaria',
+        description: 'UTN Córdoba, Ingeniería Civil',
+        from: 2016
+    },
+    {
+        title: 'Diplomatura en diseño e instalaciones con AutoCad',
+        description: 'Diseño 2D y 3D, instalaciones electricas, cañerias, etc.',
+        from: 2022,
+        to: 2023
+    },
+    {
+        title: 'Experiencia',
+        description: 'Afición por el diseño 3D, he hecho trabajos para piezas de motos, aberturas en puertas, diseño de dispositivos de audio, modelos de personajes, etc. Ya que cuento con una impresora 3D.',
+        from: 2016,
+        to: 2023
     },
 ]
 
 export const projects = [
     {
         
-        title: 'Nice website one',
-        description: 'Micua ipsum dolor sit amet consectetur adipisicing elit. Sapiente, non!',
-        img: 'portfolio1.jpeg',
+        title: 'Certificados AutoCad',
+        description: 'Diplomatura en diseño e instalaciónes con AutoCad',
+        img: 'certificado1.png',
+        url: '/autocad'
     },
     {
-        title: 'Nice website two',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, cupiditate.',
-        img: 'portfolio2.jpg',
+        title: 'MI CASA',
+        description: 'Utilizando AutoCad para el replanteo, y 3DS Max para la proyección en 3D.',
+        img: 'casa1.png',
+        url: '/casa'
     },
     {
-        title: 'Nice website three',
-        description: 'Rem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, pariatur!',
-        img: 'portfolio3.png',
+        title: 'PARLANTES',
+        description: 'Parlantes bluetooth con batería, proyecto personal impreso en 3D.',
+        img: 'parlante11.png',
+        url: '/parlante'
     },
     {
-        title: 'Nice website four',
-        description: 'Lost ipsum dolor sit amet consectetur adipisicing elit. Sapiente, non!',
-        img: 'portfolio4.png',
+        title: 'PIEZAS',
+        description: 'Piezas mecánicas de práctica para 3DS Max.',
+        img: 'pieza11.png',
+        url: '/piezas'
     },
     {
-        title: 'Nice website five',
-        description: 'Logum ipsum dolor sit amet, consectetur adipisicing elit. Debitis, corrupti!',
-        img: 'portfolio5.jpeg',
+        title: 'TECLADO',
+        description: 'Teclado mecánico para PC, diseñado en fusión 360, impreso en 3D y programado con arduino.',
+        img: 'teclado2.png',
+        url: '/teclado'
     },
     {
-        title: 'Nice website six',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, non!',
-        img: 'portfolio6.jpeg',
+        title: 'CAMA',
+        description: 'Diseño completo de la cama con cajonera que construí para mi habitación.',
+        img: 'cama1.png',
+        url: '/cama'
     },
 ]

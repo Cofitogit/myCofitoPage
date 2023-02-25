@@ -15,21 +15,14 @@ const Index = () => (
               <img src='profile.jpg' alt='' className='img-fluid p-4' />
             </div>
             <div className='col-md-8 p-4 justify-content- d-grid'>
-              <h1 className='fw-light'>Carlos Enrique Agüero</h1>
+              <h1 className='fw-light'>Lucas Gabriel Agüero</h1>
               <h3 className='fw-lighter'>
-                Front-end Developer | Javascript | React
+                Diseño 3D | 4to año Ing. Civil
               </h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste,
-                mollitia tenetur. Molestias harum cupiditate, neque, tempora
-                quis mollitia sunt, recusandae odit aspernatur vero error.
-                Facere perferendis ex nobis voluptatibus animi!
+                Alumno regular de Ingeniería Civil, actualmente me encuentro en la busqueda de mi primera experiencia profesional laboral que me permita aplicar y adquirir mayores conocimientos, con la ambición de formarme y unirme a un equipo de trabajo.
+                Será un gusto poder asistir a una entrevista para demostrar que mi energía y habilidades pueden ser útiles para un puesto de trabajo en su empresa.
               </p>
-              <div className='d-grid mx-auto col-md-4'>
-                <Link href='/hireme' className='btn btn-outline-info' style={{height: '40px'}}>
-                  HIRE ME
-                </Link>
-              </div>
             </div>
           </div>
         </div>
@@ -43,7 +36,7 @@ const Index = () => (
         <div className='card bg-info h-100'>
           <div className='card-body text-center'>
             <h1 className='bg-dark rounded text-light fw-lighter py-2'>
-              Skills
+              Habilidades
             </h1>
 
             <Skills />
@@ -54,7 +47,7 @@ const Index = () => (
         <div className='card bg-info h-100'>
           <div className='card-body'>
             <h1 className='text-center bg-dark rounded text-light fw-lighter py-2'>
-              Experience
+              Información
             </h1>
 
             <Experiences />
@@ -76,11 +69,6 @@ const Index = () => (
             </div>
 
             <Projects />
-          </div>
-          <div className='text-center mt-3'>
-            <Link href='#!' className='btn btn-outline-light'>
-              More projects
-            </Link>
           </div>
         </div>
       </div>
