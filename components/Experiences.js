@@ -6,7 +6,7 @@ export const Experiences = () => (
       <li key={index}>
         <h3  className='fw-light'>{title}</h3>
         <h5>
-          {from} - {to ? to : 'current'}
+          {from} - {to ? to : 'Actualidad'}
         </h5>
         <p>{description}</p>
         <hr className='py-3'/>
