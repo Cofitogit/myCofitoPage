@@ -36,8 +36,6 @@ export const experiences = [
     {
         title: 'Diplomatura en diseño e instalaciones con AutoCad',
         description: 'Diseño 2D y 3D, instalaciones electricas, cañerias, etc.',
-        from: 2022,
-        to: 2023
     },
     {
         title: 'Experiencia',

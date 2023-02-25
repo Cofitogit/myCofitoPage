@@ -13,7 +13,7 @@ export const Projects = () => (
             <h3>{title}</h3>
             <p>{description}</p>
             <Link href={url} className='btn btn-dark d-grid mx-auto'  style={{height: '40px'}}>
-              Ver Mas
+              Ver más
             </Link>
           </div>
         </div>

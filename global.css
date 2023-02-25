@@ -4,7 +4,7 @@
 }
 
 .overflow .card-img-top {
-    transform: scale(1);
+    transform: scale(1.1);
     transition: all 1s ease-in-out;
 }
 

@@ -2,7 +2,8 @@
   "name": "mycofitopage",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index",
+  "type": "module",
   "scripts": {
     "dev": "next"
   },

@@ -1,7 +1,6 @@
 import { Experiences } from '../components/Experiences';
 import Layout from '../components/Layout';
 import { Skills } from '../components/Skills';
-import Link from 'next/link';
 import { Projects } from '../components/Projects';
 
 const Index = () => (
@@ -17,7 +16,7 @@ const Index = () => (
             <div className='col-md-8 p-4 justify-content- d-grid'>
               <h1 className='fw-light'>Lucas Gabriel Agüero</h1>
               <h3 className='fw-lighter'>
-                Diseño 3D | 4to año Ing. Civil
+                Diseño 3D | 5to año Ing. Civil
               </h3>
               <p>
                 Alumno regular de Ingeniería Civil, actualmente me encuentro en la busqueda de mi primera experiencia profesional laboral que me permita aplicar y adquirir mayores conocimientos, con la ambición de formarme y unirme a un equipo de trabajo.
