@@ -12,7 +12,7 @@ const Index = () => (
         <div className='card card-body bg-secondary text-light'>
           <div className='row'>
             <div className='col-md-4'>
-              <img src='myCofitoPage/profile.jpg' alt='' className='img-fluid p-4' />
+              <img src='https://i.ibb.co/5GDhD1X/profile.jpg' alt='' className='img-fluid p-4' />
             </div>
             <div className='col-md-8 p-4 justify-content- d-grid'>
               <h1 className='fw-light'>Lucas Gabriel Agüero</h1>

@@ -13,14 +13,14 @@ export function Carousel6() {
       <Carousel.Item>
         <img
           className="d-block w-75 mx-auto"
-          src="cama1.png"
+          src="https://i.ibb.co/gMNZ8Qj/cama1.png"
           alt=""
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-75 mx-auto"
-          src="cama2.png"
+          src="https://i.ibb.co/ZVWj8Sh/cama2.png"
           alt=""
         />
       </Carousel.Item>

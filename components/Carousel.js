@@ -13,14 +13,14 @@ export function Carousel1() {
       <Carousel.Item>
         <img
           className="d-block w-75 mx-auto"
-          src="certificado1.png"
+          src="https://i.ibb.co/Fb8XRXF/certificado1.png"
           alt=""
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-75 mx-auto"
-          src="certificado2.png"
+          src="https://i.ibb.co/Bf6CQVd/certificado2.png"
           alt=""
         />
 
@@ -29,7 +29,7 @@ export function Carousel1() {
       <Carousel.Item>
         <img
           className="d-block w-75 mx-auto"
-          src="certificado3.png"
+          src="https://i.ibb.co/gZcTdmb/certificado3.png"
           alt=""
         />
       </Carousel.Item>

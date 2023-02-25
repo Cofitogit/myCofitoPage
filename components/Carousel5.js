@@ -13,14 +13,14 @@ export function Carousel5() {
       <Carousel.Item>
         <img
           className="d-block w-75 mx-auto"
-          src="teclado1.png"
+          src="https://i.ibb.co/zFnRqzN/teclado1.png"
           alt=""
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-75 mx-auto"
-          src="teclado2.png"
+          src="https://i.ibb.co/XzxBKCc/teclado2.png"
           alt=""
         />
       </Carousel.Item>

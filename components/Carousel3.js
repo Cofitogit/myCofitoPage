@@ -13,14 +13,14 @@ export function Carousel3() {
       <Carousel.Item>
         <img
           className="d-block w-75 mx-auto"
-          src="pieza11.png"
+          src="https://i.ibb.co/tpLqY8F/pieza11.png"
           alt=""
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-75 mx-auto"
-          src="pieza12.png"
+          src="https://i.ibb.co/gdtS2vX/pieza12.png"
           alt=""
         />
 
@@ -29,28 +29,35 @@ export function Carousel3() {
       <Carousel.Item>
         <img
           className="d-block w-75 mx-auto"
-          src="pieza21.png"
+          src="https://i.ibb.co/ckM4GHy/pieza21.png"
           alt=""
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-75 mx-auto"
-          src="pieza31.png"
+          src="https://i.ibb.co/xmJvHR6/pieza31.png"
           alt=""
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-75 mx-auto"
-          src="pieza41.png"
+          src="https://i.ibb.co/J2gHT1p/pieza41.png"
           alt=""
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-75 mx-auto"
-          src="pieza42.png"
+          src="https://i.ibb.co/3vn7k8F/pieza42.png"
+          alt=""
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-75 mx-auto"
+          src="https://i.ibb.co/VmqWPpH/otros1.png"
           alt=""
         />
       </Carousel.Item>

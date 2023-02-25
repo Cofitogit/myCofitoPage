@@ -13,14 +13,14 @@ export function Carousel2() {
       <Carousel.Item>
         <img
           className="d-block w-75 mx-auto"
-          src="casa1.png"
+          src="https://i.ibb.co/jGj80by/casa1.png"
           alt=""
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-75 mx-auto"
-          src="casa2.png"
+          src="https://i.ibb.co/44VZ1Cb/casa2.png"
           alt=""
         />
 
@@ -29,7 +29,7 @@ export function Carousel2() {
       <Carousel.Item>
         <img
           className="d-block w-75 mx-auto"
-          src="casa3.png"
+          src="https://i.ibb.co/SVC1jQG/casa3.png"
           alt=""
         />
       </Carousel.Item>

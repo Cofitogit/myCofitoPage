@@ -52,37 +52,37 @@ export const projects = [
         
         title: 'Certificados AutoCad',
         description: 'Diplomatura en diseño e instalaciónes con AutoCad',
-        img: 'certificado1.png',
+        img: 'https://i.ibb.co/Fb8XRXF/certificado1.png',
         url: '/autocad'
     },
     {
         title: 'MI CASA',
         description: 'Utilizando AutoCad para el replanteo, y 3DS Max para la proyección en 3D.',
-        img: 'casa1.png',
+        img: 'https://i.ibb.co/jGj80by/casa1.png',
         url: '/casa'
     },
     {
         title: 'PARLANTES',
         description: 'Parlantes bluetooth con batería, proyecto personal impreso en 3D.',
-        img: 'parlante11.png',
+        img: 'https://i.ibb.co/t49XrP0/parlante11.png',
         url: '/parlante'
     },
     {
         title: 'PIEZAS',
         description: 'Piezas mecánicas de práctica para 3DS Max.',
-        img: 'pieza11.png',
+        img: 'https://i.ibb.co/tpLqY8F/pieza11.png',
         url: '/piezas'
     },
     {
         title: 'TECLADO',
         description: 'Teclado mecánico para PC, diseñado en fusión 360, impreso en 3D y programado con arduino.',
-        img: 'teclado2.png',
+        img: 'https://i.ibb.co/XzxBKCc/teclado2.png',
         url: '/teclado'
     },
     {
         title: 'CAMA',
         description: 'Diseño completo de la cama con cajonera que construí para mi habitación.',
-        img: 'cama1.png',
+        img: 'https://i.ibb.co/gMNZ8Qj/cama1.png',
         url: '/cama'
     },
 ]
